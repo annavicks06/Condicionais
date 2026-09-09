@@ -15,3 +15,21 @@ function Verificar() {
         resultado.innerHTML = "Aprovado";
     }
 }
+
+let A, B, Resultado;
+ 
+function calcular() {
+
+    A = Number (document.getElementById("A").value);
+    B = Number (document.getElementById("B").value);
+    Resultado = document.getElementById("Resultado");
+ 
+   if (A < B) {
+       Resultado.innerHTML= A - B;
+    }
+
+    else if (B > A) {
+        Resultado.innerHTML= B - A;
+     }
+
+}
