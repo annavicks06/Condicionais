@@ -1,109 +1,55 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(216, 214, 214);
 }
-
-.Container {
-    background-color: rgb(255, 255, 255);
+ 
+body{
+    background: linear-gradient(135deg, #4f46e5, #b58aff)
+}
+ 
+.container{
+    background-color: white;
     padding: 30px;
-    border-radius:10px;
+    border-radius: 15px;
+    width: 350px;
     text-align: center;
-    width: 300px;
-    margin: auto;
-    margin-top: 10px;
+    margin: 20px auto;
+    box-shadow: 0 10px 20px black;
 }
-
-input {
+ 
+h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+ 
+input{
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
 }
-
-button {
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-#resultado {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(216, 214, 214);
-}
-
-.Container {
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    border-radius:10px;
-    text-align: center;
-    width: 300px;
-    margin: auto;
-    margin-top: 10px;
-}
-
-input {
+ 
+button{
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-button {
-    padding: 10px 20px;
+    padding: 12px;
+    background-color: #a679f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
     cursor: pointer;
+    transition: 0.3s;
 }
-
-#resultado {
+ 
+button:hover{
+    background-color: #7b4ec2;
+}
+ 
+h2{
     margin-top: 20px;
-    font-weight: bold;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(216, 214, 214);
-}
-
-.Container {
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    border-radius:10px;
-    text-align: center;
-    width: 300px;
-    margin: auto;
-    margin-top: 10px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-button {
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-#resultado {
-    margin-top: 20px;
-    font-weight: bold;
+    color: #444;
 }
